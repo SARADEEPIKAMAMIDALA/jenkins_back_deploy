@@ -15,7 +15,7 @@ public class AuthController {
         this.userService = userService;
     }
 @GetMapping("/home")
-public class home(){
+public String Home(){
     return "home this is";
 }
     @PostMapping("/signup")
